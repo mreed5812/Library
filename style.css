@@ -2,41 +2,15 @@
 body{
 	border: 0;
 	margin: 0;
-	   font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-	background-color: #008000;
+.jumbotron {
+	background-color: green;
 	color: white;
 }
 
-.container {
-	max-width: 85%;
-	margin: 0 auto;
-	padding: 30px 0;
-	display: flex;
-}
-
-h1 {
-	font-size: 2.5rem;
-	float: left;
-	font-weight: bold;
-}
-
-.newBook{
-	margin-left: 60%;
-	font-weight: bold;
-	border: 1px solid green;
-	padding: 10px 20px;
-	cursor: pointer;
-	border: none;
-	color: green;
-	text-align: center;
-	font-size: 16px;
-	border-radius: 10px;
+.btn-primary {
+	border-color: white;
 
 }
-
-
-
-

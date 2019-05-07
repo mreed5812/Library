@@ -2,15 +2,49 @@
 <html>
 <head>
 	<title>Library</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<header>
-		<div class="container">
-			<h1>Your Library</h1>
-			<button class="newBook">Add New Book</button>
+		<div class="jumbotron">
+			<h1 class="display-4">Your Library</h1>
+			<p class="lead">Add new books to your library and keep track of your tracking</p>
+			<button class="btn btn-primary" type="submit">Add New Book</button>
 		</div>
 	</header>
+	<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Title</th>
+      <th scope="col">Author Name</th>
+      <th scope="col">Pages</th>
+      <th scope="col">Read?</th>
+      <th scope="col">Delete</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
 	
 </body>
 </html>
