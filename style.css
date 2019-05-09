@@ -14,3 +14,12 @@ body{
 	border-color: white;
 
 }
+
+
+thead{
+	text-align: center;
+}
+
+td{
+	text-align: center;
+}

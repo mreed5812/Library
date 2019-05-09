@@ -3,8 +3,8 @@ const addNewBook = document.querySelector("#addNewBook");
 const closeModal = document.querySelector("#closeModal");
 const addBook = document.querySelector("#addBook");
 
-let myLibrary = [{name: "outside", author: "Steven King", pages: "700", read:false},
-		{name: "code complete", author: "McConnel", pages: "1000", read:false}];
+let myLibrary = [{name: "Outsider", author: "Steven King", pages: "700", read:false},
+		{name: "Code Complete", author: "McConnel", pages: "1000", read:false}];
 
  var html = "<table border='1|1'>";
     for (var i = 0; i < myLibrary.length; i++) {
