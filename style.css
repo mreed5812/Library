@@ -15,11 +15,6 @@ body{
 
 }
 
-
-thead{
-	text-align: center;
-}
-
-td{
+table{
 	text-align: center;
 }
