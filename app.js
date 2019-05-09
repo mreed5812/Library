@@ -1,5 +1,7 @@
 
-
+const addNewBook = document.querySelector("#addNewBook");
+const closeModal = document.querySelector("#closeModal");
+const addBook = document.querySelector("#addBook");
 
 let myLibrary = [{name: "outside", author: "Steven King", pages: "700", read:false},
 		{name: "code complete", author: "McConnel", pages: "1000", read:false}];
@@ -28,11 +30,11 @@ function Book(title, author, pages, Read){
 
 function addBookToLibrary(){
 	//do stuff here
+	alert("it worked");
 }
 
-let outsider = {
-	title: "outsider",
-	author: "Steven King",
-	pages: "700",
-	read: false
-}
+addBook.addEventListener('click', addBookToLibrary);
+
+closeModal.addEventListener('click', function(){
+	document.getElementById("bookForm").reset();
+});
