@@ -12,9 +12,12 @@ body{
 
 .btn-primary {
 	border-color: white;
-
 }
 
 table{
 	text-align: center;
+}
+
+.fa{
+	cursor: pointer;
 }
