@@ -8,8 +8,7 @@ window.onload = function(){
 	loadTable();
 }
 
-let myLibrary = [{name: "Outsider", author: "Steven King", pages: "700", read:false},
-		{name: "Code Complete", author: "McConnel", pages: "1000", read:false}];
+let myLibrary = [];
 
 function loadTable(){
 	
