@@ -5,9 +5,9 @@ Application was made to practice constructor, DOM, and LocalStorage.
 
 
 ### Technologies
--HTML
--CSS
--Javascript
+- HTML
+- CSS
+- Javascript
 
 ### Features
 -Adding a book via a pop-up form with animations
